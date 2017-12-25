@@ -18,4 +18,6 @@ DEVICE_PATH := device/10or/G
 
 include device/10or/msm8953-common/BoardConfigCommon.mk
 
+RECOVERY_VARIANT=twrp
+
 TARGET_KERNEL_CONFIG := msm8937_defconfig
